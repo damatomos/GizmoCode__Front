@@ -1,0 +1,22 @@
+$cor0: #631D15;
+$cor1: #B3252F;
+$cor2: #FF6973;
+$cor3: #FF4F5A;
+$cor4: #14B33B;
+$cor5: #4FFF7A;
+$cor6: #FFFFFF;
+$transparente: none;
+
+@mixin for-phone-only {
+  @media (max-width: 640.98px) { @content; }
+}
+@mixin for-tablet-only {
+  @media (min-width: 641px) and (max-width: 1024.98px) { @content; }
+}
+@mixin for-phone-and-tablet {
+  @media (max-width: 1024.98px) { @content; }
+}
+@mixin for-desktop-only {
+  @media (min-width: 1025px) { @content; }
+}
+
