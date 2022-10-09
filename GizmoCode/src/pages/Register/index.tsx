@@ -2,26 +2,29 @@ import React from 'react';
 import style from './style.module.scss';
 import imgHomemDuvida from './../../assets/imgs/homem_duvida.png';
 
-export default function Login() {
+export default function Register() {
     return (
       <div className={style.login}>
           <div className={style.login__left}>
               <div className={style.login__left__header}>
                   <p className={style.logo}>Marca</p>
 
-                  <h1>Acesse sua Conta</h1>
+                  <h1>Crie uma conta</h1>
               </div>
 
               <form className={style.login__left__form}>
+                  <label>Nome</label>
+                  <input/>
+
                   <label>Email</label>
                   <input/>
 
                   <label>Senha</label>
                   <input/>
 
-                  <span>Esqueci minha senha</span>
+                  <button>Cadastrar</button>
 
-                  <button>Entrar</button>
+                  <button>Entrar com o Google</button>
               </form>
 
               <div className={style.login__left__copyright}>
@@ -30,7 +33,7 @@ export default function Login() {
           </div>
           <div className={style.login__right}>
               <div className={style.login__right__btn}>
-                  <button>Cadastrar</button>
+                  <button>Entrar</button>
               </div>
               <div className={style.login__right__text}>
                   <p>Facilite a busca de um item perdido.</p>
