@@ -1,8 +1,10 @@
 # GizmoCode__Front
 Grupo:
+```
 Eyder Tinoco
 Gabriel Melo 
 Mikhael D'amato
+```
 
 Projeto foi feito usando vite:
 ```
